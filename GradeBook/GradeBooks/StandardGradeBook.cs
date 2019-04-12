@@ -3,7 +3,7 @@ using GradeBook.Enums;
 
 namespace GradeBook.GradeBooks
 {
-    public class StandardGradeBook : GradeBook
+    public class StandardGradeBook : BaseGradeBook
     {
         public StandardGradeBook(string name)
         {
