@@ -41,6 +41,7 @@ namespace GradeBook.UserInterfaces
                 return;
             }
             var name = parts[2].ToLower();
+            BaseGradeBook gradeBook;
             if (name == "standard")
             {
                 BaseGradeBook gradeBook = new StandardGradeBook(name);
